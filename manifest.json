@@ -1,0 +1,14 @@
+{
+    "name": "MyTaskList",
+    "version": "0.9.0",
+    "manifest_version": 2,
+    "permissions": [
+        "tabs", "http://*/*", "https://*/*"
+    ],
+    "description": "Management my everyday's task lists.",
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_title": "My Task List",
+        "default_popup": "index.html"
+    }
+}
