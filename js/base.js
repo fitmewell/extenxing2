@@ -38,7 +38,8 @@ function setForm(formlist){
             hiddenOtherChild(this);
         };
         formTitle.ondblclick = function(){
-            alert(fieldList[index_]);
+//            alert(fieldList[index_]);
+            prompt("copy this", fieldList[index_]);
         }
         form.appendChild(formTitle);
         for(var inputName in formlist[forms]){

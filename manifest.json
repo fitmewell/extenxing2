@@ -3,7 +3,7 @@
     "version": "0.9.0",
     "manifest_version": 2,
     "permissions": [
-        "tabs", "http://*/*", "https://*/*"
+        "tabs", "http://*/*", "https://*/*","notifications"
     ],
     "description": "Management my everyday's task lists.",
     "browser_action": {
